@@ -1,0 +1,46 @@
+{
+  "name": "gravity-product-icons",
+  "displayName": "Gravity Product Icons",
+  "description": "Product icon theme that feels right at home on macOS",
+  "version": "1.0.0",
+  "publisher": "fyonnetti",
+  "author": {
+    "name": "Frank Yonnetti"
+  },
+  "license": "MIT",
+  "icon": "gravity-product-icons.png",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "homepage": "https://github.com/frankyonnetti/gravity-vscode-product-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankyonnetti/gravity-vscode-product-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/frankyonnetti/gravity-vscode-product-icons/issues"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "productIconThemes": [
+      {
+        "id": "gravity-product-icon",
+        "label": "Gravity Product Icons",
+        "path": "./theme/gravity-product-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "svgo": "svgo -f ./src/icons -o ./dist/icons --config ./svgo.config.js",
+    "font": "fantasticon -c ./fantasticonrc.js -n gravity-icons",
+    "build": "yarn svgo && yarn font"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "fantasticon": "^2.0.0",
+    "svgo": "^3.0.5"
+  }
+}
