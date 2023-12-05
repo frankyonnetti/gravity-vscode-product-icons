@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GravityIcons | The Product icon theme that feels right at home on macOS</title>
+
+  <!-- https://github.com/sindresorhus/modern-normalize/releases -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+
+  <style type="text/css">
+
+    body {
+      text-align: center;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 32px;
+    }
+
+    .icon {
+      display: inline-block;
+      margin: 8px;
+      width: 100px;
+    }
+
+    .icon:hover {
+      cursor: default;
+    }
+
+    .icon:hover .inner {
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+    }
+
+    .icon .inner {
+      text-align: center;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+      display: inline-block;
+      width: 100%;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .icon .inner i {
+      color: #333;
+      font-size: 48px;
+      overflow: hidden;
+      padding: 16px 0;
+    }
+
+    .icon .inner::before {
+      overflow: hidden;
+    }
+
+    .label {
+      color: #656565;
+      font-size: 10px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      display: inline-block;
+      overflow: hidden;
+      margin-top: 8px;
+      padding: 4px;
+      width: 100%;
+    }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="GravityIcons.css" />
+</head>
+
+<body>
+
+  <h1>GravityIcons</h1>
+
+  <div id="icons">
+    <div class="icon" title="collapse-all">
+      <span class="inner">
+        <i class="gravityicon gravityicon-collapse-all" aria-hidden="true"></i>
+      </span>
+      <br>
+      <span class='label'>collapse-all</span>
+    </div>
+    <div class="icon" title="expand-all">
+      <span class="inner">
+        <i class="gravityicon gravityicon-expand-all" aria-hidden="true"></i>
+      </span>
+      <br>
+      <span class='label'>expand-all</span>
+    </div>
+    <div class="icon" title="new-file">
+      <span class="inner">
+        <i class="gravityicon gravityicon-new-file" aria-hidden="true"></i>
+      </span>
+      <br>
+      <span class='label'>new-file</span>
+    </div>
+    <div class="icon" title="new-folder">
+      <span class="inner">
+        <i class="gravityicon gravityicon-new-folder" aria-hidden="true"></i>
+      </span>
+      <br>
+      <span class='label'>new-folder</span>
+    </div>
+    <div class="icon" title="refresh">
+      <span class="inner">
+        <i class="gravityicon gravityicon-refresh" aria-hidden="true"></i>
+      </span>
+      <br>
+      <span class='label'>refresh</span>
+    </div>
+  </div>
+
+</body>
+</html>

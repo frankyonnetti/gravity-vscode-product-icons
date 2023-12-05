@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "GravityIcons";
+	font-display: block;
+	src: url("./GravityIcons.woff?6d9a90c76d1d110934928db8e4886720") format("woff");
+}
+
+.gravityicon[class*='gravityicon-'] {
+	font: normal normal normal 16px/1 "GravityIcons";
+	display: inline-block;
+	text-decoration: none;
+	text-rendering: auto;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+/*---------------------
+ *  Icons
+ *-------------------*/
+
+.gravityicon-collapse-all::before { content: "\f101" }
+.gravityicon-expand-all::before { content: "\f102" }
+.gravityicon-new-file::before { content: "\f103" }
+.gravityicon-new-folder::before { content: "\f104" }
+.gravityicon-refresh::before { content: "\f105" }

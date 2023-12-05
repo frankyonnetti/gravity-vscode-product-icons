@@ -28,19 +28,20 @@
       {
         "id": "gravity-product-icon",
         "label": "Gravity Product Icons",
-        "path": "./theme/gravity-product-icon-theme.json"
+        "path": "./dist/GravityIcons.json"
       }
     ]
   },
   "scripts": {
     "lint": "eslint .",
     "svgo": "svgo -f ./src/icons -o ./dist/icons --config ./svgo.config.js",
-    "font": "fantasticon -c ./fantasticonrc.js -n gravity-icons",
-    "build": "yarn svgo && yarn font"
+    "build:font": "node ./src/scripts/build.mjs",
+    "build": "yarn svgo && yarn build:font"
   },
   "devDependencies": {
     "eslint": "^8.54.0",
     "fantasticon": "^2.0.0",
+    "fs-extra": "^11.2.0",
     "svgo": "^3.0.5"
   }
 }

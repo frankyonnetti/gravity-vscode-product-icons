@@ -1,0 +1,32 @@
+{
+  "fonts": [
+    {
+      "id": "GravityIcons",
+      "src": [
+        {
+          "path": "./dist/GravityIcons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "collapse-all": {
+      "fontCharacter": "\\f101"
+    },
+    "expand-all": {
+      "fontCharacter": "\\f102"
+    },
+    "new-file": {
+      "fontCharacter": "\\f103"
+    },
+    "new-folder": {
+      "fontCharacter": "\\f104"
+    },
+    "refresh": {
+      "fontCharacter": "\\f105"
+    }
+  }
+}
