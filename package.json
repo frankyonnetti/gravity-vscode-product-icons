@@ -1,13 +1,13 @@
 {
-  "name": "gravity-product-icons",
+  "name": "gravity-vscode-product-icons",
   "displayName": "Gravity Product Icons",
   "description": "Product icon theme that feels right at home on macOS",
   "version": "1.0.0",
+  "license": "MIT",
   "publisher": "fyonnetti",
   "author": {
     "name": "Frank Yonnetti"
   },
-  "license": "MIT",
   "icon": "gravity-product-icons.png",
   "engines": {
     "vscode": "^1.84.0"
@@ -21,22 +21,26 @@
     "url": "https://github.com/frankyonnetti/gravity-vscode-product-icons/issues"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Themes"
   ],
+  "scripts": {
+    "lint": "eslint .",
+    "rmfiles": "rm -rf ./dist/GravityIcons.{css,html,woff,json} ./src/templates/mapping.json",
+    "svgo": "svgo -f ./src/icons -o ./dist/icons --config ./svgo.config.js",
+    "font": "fantasticon --config fantasticonrc.js",
+    "jsonfile": "node ./src/scripts/build.mjs",
+    "build:font": "yarn rmfiles && yarn font && yarn jsonfile",
+    "build": "yarn rmfiles && yarn svgo && yarn font && yarn jsonfile"
+  },
   "contributes": {
     "productIconThemes": [
       {
-        "id": "gravity-product-icon",
+        "id": "gravity-product-icons",
         "label": "Gravity Product Icons",
         "path": "./dist/GravityIcons.json"
       }
     ]
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "svgo": "svgo -f ./src/icons -o ./dist/icons --config ./svgo.config.js",
-    "build:font": "node ./src/scripts/build.mjs",
-    "build": "yarn svgo && yarn build:font"
   },
   "devDependencies": {
     "eslint": "^8.54.0",

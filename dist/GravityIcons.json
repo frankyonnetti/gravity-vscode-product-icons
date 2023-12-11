@@ -4,7 +4,7 @@
       "id": "GravityIcons",
       "src": [
         {
-          "path": "./dist/GravityIcons.woff",
+          "path": "./GravityIcons.woff",
           "format": "woff"
         }
       ],
@@ -19,14 +19,32 @@
     "expand-all": {
       "fontCharacter": "\\f102"
     },
-    "new-file": {
+    "extensions": {
       "fontCharacter": "\\f103"
     },
-    "new-folder": {
+    "file": {
       "fontCharacter": "\\f104"
     },
-    "refresh": {
+    "files": {
       "fontCharacter": "\\f105"
+    },
+    "folder": {
+      "fontCharacter": "\\f106"
+    },
+    "history": {
+      "fontCharacter": "\\f107"
+    },
+    "new-file": {
+      "fontCharacter": "\\f108"
+    },
+    "new-folder": {
+      "fontCharacter": "\\f109"
+    },
+    "refresh": {
+      "fontCharacter": "\\f10a"
+    },
+    "search": {
+      "fontCharacter": "\\f10b"
     }
   }
 }

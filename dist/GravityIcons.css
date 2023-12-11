@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "GravityIcons";
 	font-display: block;
-	src: url("./GravityIcons.woff?6d9a90c76d1d110934928db8e4886720") format("woff");
+	src: url("./GravityIcons.woff?4bd420c45ca1dda8521c53fa4aac5eb0") format("woff");
 }
 
 .gravityicon[class*='gravityicon-'] {
@@ -23,6 +23,12 @@
 
 .gravityicon-collapse-all::before { content: "\f101" }
 .gravityicon-expand-all::before { content: "\f102" }
-.gravityicon-new-file::before { content: "\f103" }
-.gravityicon-new-folder::before { content: "\f104" }
-.gravityicon-refresh::before { content: "\f105" }
+.gravityicon-extensions::before { content: "\f103" }
+.gravityicon-file::before { content: "\f104" }
+.gravityicon-files::before { content: "\f105" }
+.gravityicon-folder::before { content: "\f106" }
+.gravityicon-history::before { content: "\f107" }
+.gravityicon-new-file::before { content: "\f108" }
+.gravityicon-new-folder::before { content: "\f109" }
+.gravityicon-refresh::before { content: "\f10a" }
+.gravityicon-search::before { content: "\f10b" }

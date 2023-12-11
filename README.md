@@ -1,28 +1,24 @@
-# Gravity Product Icons
+<p align="center">
+  <img alt="Gravity VSCode Theme" src="https://github.com/frankyonnetti/gravity-file-icons/blob/main/gravity-product-icons.png?raw=true" width="128" />
+</p>
+<h1 align="center">
+  Gravity VSCode Product Icons
+</h1>
 
-This is the README for your extension "gravity-product-icons". After writing up a brief description, we recommend including the following sections.
+<p align="center">
+<img alt="" src="https://yonnetti-sublime.s3.amazonaws.com/gravity-vscode/the-icons.png" />
+</p>
 
-## Features
+## Install
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+  - [Download the icon theme](https://github.com/frankyonnetti/gravity-file-icons/archive/refs/tags/0.1.2.zip) and un-zip the archive.
+  - Rename the folder to `gravity-vscode-product-icons`.
+  - Place the folder in the extensions directory.
+    - macOS: `~/.vscode/extensions`
 
-For example if there is an image subfolder under your extension project workspace:
+---
 
-\!\[feature X\]\(images/feature-x.png\)
+👉 Also checkout the VS Code:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- [Gravity theme](https://github.com/frankyonnetti/gravity-vscode-theme)
+- [Gravity File Icon Theme](https://github.com/frankyonnetti/gravity-vscode-file-icons)

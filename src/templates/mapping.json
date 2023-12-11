@@ -1,7 +1,13 @@
 {
     "collapse-all": 61697,
     "expand-all": 61698,
-    "new-file": 61699,
-    "new-folder": 61700,
-    "refresh": 61701
+    "extensions": 61699,
+    "file": 61700,
+    "files": 61701,
+    "folder": 61702,
+    "history": 61703,
+    "new-file": 61704,
+    "new-folder": 61705,
+    "refresh": 61706,
+    "search": 61707
 }
