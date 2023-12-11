@@ -1,12 +1,12 @@
 <p align="center">
-  <img alt="Gravity VSCode Theme" src="https://github.com/frankyonnetti/gravity-file-icons/blob/main/gravity-product-icons.png?raw=true" width="128" />
+  <img alt="Gravity VSCode Theme" src="https://yonnetti-sublime.s3.amazonaws.com/gravity-vscode/gravity-product-icon.png" width="128" />
 </p>
 <h1 align="center">
   Gravity VSCode Product Icons
 </h1>
 
 <p align="center">
-<img alt="" src="https://yonnetti-sublime.s3.amazonaws.com/gravity-vscode/the-icons.png" />
+<img alt="" src="https://yonnetti-sublime.s3.amazonaws.com/gravity-vscode/the-product-icons.png" />
 </p>
 
 ## Install
