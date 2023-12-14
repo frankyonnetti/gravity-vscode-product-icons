@@ -27,9 +27,9 @@
   "scripts": {
     "lint": "eslint .",
     "rmfiles": "rm -rf ./dist/GravityIcons.{css,html,woff,json} ./src/templates/mapping.json",
-    "svgo": "svgo -f ./src/icons -o ./dist/icons --config ./svgo.config.js",
-    "font": "fantasticon --config fantasticonrc.js",
-    "jsonfile": "node ./src/scripts/build.mjs",
+    "svgo": "svgo -f ./src/icons -o ./dist/icons --config ./src/scripts/svgo.config.js",
+    "font": "fantasticon --config ./src/scripts/fantasticonrc.js",
+    "jsonfile": "node ./src/scripts/buildjson.mjs",
     "build:font": "yarn rmfiles && yarn font && yarn jsonfile",
     "build": "yarn rmfiles && yarn svgo && yarn font && yarn jsonfile"
   },

@@ -1,13 +1,15 @@
 {
-    "collapse-all": 61697,
-    "expand-all": 61698,
-    "extensions": 61699,
-    "file": 61700,
-    "files": 61701,
-    "folder": 61702,
-    "history": 61703,
-    "new-file": 61704,
-    "new-folder": 61705,
-    "refresh": 61706,
-    "search": 61707
+    "close-all": 61697,
+    "collapse-all": 61698,
+    "expand-all": 61699,
+    "extensions": 61700,
+    "file": 61701,
+    "files": 61702,
+    "folder": 61703,
+    "history": 61704,
+    "new-file": 61705,
+    "new-folder": 61706,
+    "refresh": 61707,
+    "save-all": 61708,
+    "search": 61709
 }

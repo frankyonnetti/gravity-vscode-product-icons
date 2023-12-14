@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "GravityIcons";
 	font-display: block;
-	src: url("./GravityIcons.woff?4bd420c45ca1dda8521c53fa4aac5eb0") format("woff");
+	src: url("./GravityIcons.woff?cda5c15cc514237e59378653773c4a2d") format("woff");
 }
 
 .gravityicon[class*='gravityicon-'] {
@@ -21,14 +21,16 @@
  *  Icons
  *-------------------*/
 
-.gravityicon-collapse-all::before { content: "\f101" }
-.gravityicon-expand-all::before { content: "\f102" }
-.gravityicon-extensions::before { content: "\f103" }
-.gravityicon-file::before { content: "\f104" }
-.gravityicon-files::before { content: "\f105" }
-.gravityicon-folder::before { content: "\f106" }
-.gravityicon-history::before { content: "\f107" }
-.gravityicon-new-file::before { content: "\f108" }
-.gravityicon-new-folder::before { content: "\f109" }
-.gravityicon-refresh::before { content: "\f10a" }
-.gravityicon-search::before { content: "\f10b" }
+.gravityicon-close-all::before { content: "\f101" }
+.gravityicon-collapse-all::before { content: "\f102" }
+.gravityicon-expand-all::before { content: "\f103" }
+.gravityicon-extensions::before { content: "\f104" }
+.gravityicon-file::before { content: "\f105" }
+.gravityicon-files::before { content: "\f106" }
+.gravityicon-folder::before { content: "\f107" }
+.gravityicon-history::before { content: "\f108" }
+.gravityicon-new-file::before { content: "\f109" }
+.gravityicon-new-folder::before { content: "\f10a" }
+.gravityicon-refresh::before { content: "\f10b" }
+.gravityicon-save-all::before { content: "\f10c" }
+.gravityicon-search::before { content: "\f10d" }
